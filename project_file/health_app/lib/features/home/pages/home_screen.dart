@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       drawer: Drawer(
         child: ListView(
-          padding: EdgeInsets.zero, // Üst boşluğu kaldırır
+          padding: EdgeInsets.zero,
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
@@ -28,11 +28,27 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             ListTile(
+              leading: const Icon(Icons.home),
+              title: const Text('Ana Sayfa'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushReplacementNamed(context, '/home');
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.analytics),
+              title: const Text('Modeller'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/models');
+              },
+            ),
+            ListTile(
               leading: const Icon(Icons.person),
               title: const Text('Hesap Bilgisi'),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.pushNamed(context, '/account'); // Hesap ekranı
+                Navigator.pushNamed(context, '/account');
               },
             ),
             ListTile(
@@ -40,7 +56,15 @@ class _HomeScreenState extends State<HomeScreen> {
               title: const Text('Ayarlar'),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.pushNamed(context, '/settings'); // Ayarlar ekranı
+                Navigator.pushNamed(context, '/settings');
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.info),
+              title: const Text('Hakkında'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/about');
               },
             ),
             const Divider(),
@@ -49,14 +73,17 @@ class _HomeScreenState extends State<HomeScreen> {
               title: const Text('Çıkış'),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.pushReplacementNamed(context, '/'); // Giriş ekranına dönüş
+                Navigator.pushReplacementNamed(context, '/');
               },
             ),
           ],
         ),
       ),
       body: const Center(
-        child: Text('Ana Sayfaya Hoşgeldiniz!'),
+        child: Text(
+          'Ana Sayfaya Hoşgeldiniz!',
+          style: TextStyle(fontSize: 20),
+        ),
       ),
     );
   }
