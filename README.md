@@ -103,3 +103,40 @@ HEASZ Healthcare, bireylerin sağlık farkındalığını artırmayı, bilgiye e
   ![Prototip 1](project_managment_file/images/prototip_1.png)
   ![Prototip 2](project_managment_file/images/prototip_2.png)
   ![Prototip 3](project_managment_file/images/prototip_3.png)
+</details>
+
+---
+
+# 2. Sprint
+
+- **Sprint Board Update**
+
+![Sprint 2](project_managment_file/images/sprint_2_update.png)
+
+- **Sprint Notları**: User Story, kartların açıklama kısımlarına yazılmıştır.
+
+- **Sprint İçinde Tamamlanması Tahmin Edilen Puan:** 80
+
+- **Puanlama Mantığı:** Proje boyunca toplanacak toplam puan sayısı 215. Kartlar içerisinde bulunan etiketlerin her biri (Sprint 1, Sprint 2, Sprint 3 etiketleri hariç. Bunlar backlog'ların hangi sprint'de gerçekleştirileceğini planlayan etiketlerdir.) +5 puandır. Birden fazla etiket içeren kartlar, etiket sayısının toplam puanına eşittir. (Örneğin iki etiket içeren kartın puanı +10). Sprint Retrospective kartları puanlındırmaya dahil değildir.
+
+- **Daily Scrum:** Daily Scrum'lar whatsapp ve google meets üzerinden gerçekleştirilmiştir. [Görüntüleyin](project_managment_file/sprint_2_daily_scrum/)
+
+- **Sprint Review:** 
+  - Sprint 2 kapsamında uygulama geliştirme sürecine geçildi ve temel mimari başarıyla oluşturuldu. Kullanıcı girişi, ana ekran ve navigasyon menüsü gibi temel yapılar Flutter ile geliştirildi.
+  - Aynı zamanda, sağlık verilerini işlemek üzere kullanılacak olan makine öğrenmesi modelleri için uygun veri setleri tespit edildi. Bu veri setleri kullanılarak ilk ML modelleri eğitildi ve test edildi.
+
+- **Sprint Retrospective:**
+  - Uygulama tarafındaki mimari yapıların kurulması ve ML modelleri için veri toplama ve eğitim sürecinin başlaması, sprintin verimli geçtiğini gösterdi.
+  - Görev dağılımları netleştirildiğinde her ekip üyesi kendi alanında sorumluluk alarak verimli şekilde ilerledi.
+  - Bazı görevlerde tanım eksikliği nedeniyle yeniden planlama ihtiyacı oluştu. Bu durumun bir sonucu olarak, ilerleyen sprintlerde görev tanımlarının daha açık yazılması ve görev başlamadan önce ekipçe netleştirilmesi kararlaştırıldı.
+
+
+<details>
+  <summary>Uygulama Ekran Görüntüsü</summary>
+
+  ![Ürün 1](project_managment_file/images/urun_1_sprint2.png)
+  ![Ürün 2](project_managment_file/images/urun_2_sprint2.png)
+  ![Ürün 3](project_managment_file/images/urun_3_sprint2.png)
+  ![Ürün 4](project_managment_file/images/urun_4_sprint2.png)
+  ![Ürün 5](project_managment_file/images/urun_5_sprint2.png)
+  ![Ürün 6](project_managment_file/images/urun_6_sprint2.png)
