@@ -30,6 +30,13 @@ class DrawerMenu extends StatelessWidget {
             },
           ),
           ListTile(
+            leading: const Icon(Icons.track_changes),
+            title: const Text('Kişisel Takip'),
+            onTap: () {
+              Navigator.pushNamed(context, '/personal-tracker');
+            },
+          ),
+          ListTile(
             leading: const Icon(Icons.account_circle),
             title: const Text('Hesabım'),
             onTap: () {

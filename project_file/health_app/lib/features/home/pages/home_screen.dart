@@ -43,6 +43,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.pushNamed(context, '/models');
               },
             ),
+          ListTile(
+            leading: const Icon(Icons.track_changes),
+            title: const Text('Kişisel Takip'),
+            onTap: () {
+              Navigator.pushNamed(context, '/personal-tracker');
+            },
+          ),
             ListTile(
               leading: const Icon(Icons.person),
               title: const Text('Hesap Bilgisi'),
