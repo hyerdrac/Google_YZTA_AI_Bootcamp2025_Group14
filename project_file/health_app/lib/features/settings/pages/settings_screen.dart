@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:health_app/provider/theme_provider.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    bool isDarkMode = false; // Gelecekte state yönetimi ile kontrol edilir
+    final themeProvider = Provider.of<ThemeProvider>(context);
 
     return Scaffold(
       appBar: AppBar(title: const Text('Ayarlar')),
@@ -13,14 +15,14 @@ class SettingsScreen extends StatelessWidget {
         children: [
           SwitchListTile(
             title: const Text('Karanlık Mod'),
-            value: isDarkMode,
+            value: themeProvider.isDarkMode,
             onChanged: (bool value) {
-              // Burada tema değişikliği yapılacak
+              themeProvider.toggleTheme(value);
             },
           ),
-          ListTile(
-            title: const Text('Uygulama Versiyonu'),
-            subtitle: const Text('v1.0.0'),
+          const ListTile(
+            title: Text('Uygulama Versiyonu'),
+            subtitle: Text('v1.0.0'),
           ),
         ],
       ),
