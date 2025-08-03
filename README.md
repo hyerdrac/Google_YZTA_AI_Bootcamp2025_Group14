@@ -156,7 +156,7 @@ HEASZ Healthcare, bireylerin sağlık farkındalığını artırmayı, bilgiye e
 
 - **Puanlama Mantığı:** Proje boyunca toplanacak toplam puan sayısı 215. Kartlar içerisinde bulunan etiketlerin her biri (Sprint 1, Sprint 2, Sprint 3 etiketleri hariç. Bunlar backlog'ların hangi sprint'de gerçekleştirileceğini planlayan etiketlerdir.) +5 puandır. Birden fazla etiket içeren kartlar, etiket sayısının toplam puanına eşittir. (Örneğin iki etiket içeren kartın puanı +10). Sprint Retrospective kartları puanlındırmaya dahil değildir.
 
-- **Daily Scrum:** Daily Scrum'lar whatsapp ve google meets üzerinden gerçekleştirilmiştir. [Görüntüleyin](project_managment_file/sprint_3_daily_scrum/)
+- **Daily Scrum:** Daily Scrum'lar whatsapp ve google meets üzerinden gerçekleştirilmiştir.
 
 - **Sprint Review:** 
   - Sprint 3’te, önceki sprintlerde geliştirilen tüm bileşenler bir araya getirildi ve uygulamanın temel fonksiyonları tamamlandı.
