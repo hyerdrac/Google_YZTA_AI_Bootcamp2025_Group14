@@ -140,3 +140,29 @@ HEASZ Healthcare, bireylerin sağlık farkındalığını artırmayı, bilgiye e
   ![Ürün 4](project_managment_file/images/urun_4_sprint2.png)
   ![Ürün 5](project_managment_file/images/urun_5_sprint2.png)
   ![Ürün 6](project_managment_file/images/urun_6_sprint2.png)
+</details>
+
+---
+
+# 3. Sprint
+
+- **Sprint Board Update**
+
+![Sprint 2](project_managment_file/images/sprint_3_update.png)
+
+- **Sprint Notları**: User Story, kartların açıklama kısımlarına yazılmıştır.
+
+- **Sprint İçinde Tamamlanması Tahmin Edilen Puan:** 70
+
+- **Puanlama Mantığı:** Proje boyunca toplanacak toplam puan sayısı 215. Kartlar içerisinde bulunan etiketlerin her biri (Sprint 1, Sprint 2, Sprint 3 etiketleri hariç. Bunlar backlog'ların hangi sprint'de gerçekleştirileceğini planlayan etiketlerdir.) +5 puandır. Birden fazla etiket içeren kartlar, etiket sayısının toplam puanına eşittir. (Örneğin iki etiket içeren kartın puanı +10). Sprint Retrospective kartları puanlındırmaya dahil değildir.
+
+- **Daily Scrum:** Daily Scrum'lar whatsapp ve google meets üzerinden gerçekleştirilmiştir. [Görüntüleyin](project_managment_file/sprint_3_daily_scrum/)
+
+- **Sprint Review:** 
+  - Sprint 3’te, önceki sprintlerde geliştirilen tüm bileşenler bir araya getirildi ve uygulamanın temel fonksiyonları tamamlandı.
+  - Kullanıcı arayüzü üzerinde son iyileştirmeler yapıldı
+
+- **Sprint Retrospective:**
+  - Projenin planladığımız büyüklükte ve derinlikte tamamlanamadığı açıkça ortaya çıktı.
+  - Bazı teknik sorunlar ve entegrasyon problemleri sprint ilerledikçe karmaşıklığı artırdı. Planlama aşamasında risklerin tam olarak öngörülememesi, süreçte esnekliğin azalmasına neden oldu.
+  - Gelecek projelerde, daha gerçekçi hedefler belirlenmesi, sık ve etkili iletişim ile daha sık kontrol noktalarının oluşturulması gerektiği sonucuna varıldı. Bu sprint, öğrenme ve gelişim için önemli bir fırsat oldu ancak iyileştirme alanları açıkça ortada.
