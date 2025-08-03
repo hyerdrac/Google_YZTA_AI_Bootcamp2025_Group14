@@ -148,7 +148,7 @@ HEASZ Healthcare, bireylerin sağlık farkındalığını artırmayı, bilgiye e
 
 - **Sprint Board Update**
 
-![Sprint 2](project_managment_file/images/sprint_3_update.png)
+![Sprint 3](project_managment_file/images/sprint_3_update.png)
 
 - **Sprint Notları**: User Story, kartların açıklama kısımlarına yazılmıştır.
 
