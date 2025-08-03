@@ -16,6 +16,16 @@ class ModelsScreen extends StatelessWidget {
               Navigator.pushNamed(context, '/models/diabetes');
             },
           ),
+          ListTile(
+            title: const Text('Akciğer Kanseri Modeli'),
+            leading: const Icon(Icons.bloodtype), 
+            onTap: () => Navigator.pushNamed(context, '/models/lung'),
+          ),
+          ListTile(
+            leading: const Icon(Icons.bloodtype),
+            title: const Text('Kalp Krizi Tahmin'),
+            onTap: () => Navigator.pushNamed(context, '/models/heart_attack'),
+          ),
           // Diğer modelleri buraya ekleyeceğiz
         ],
       ),

@@ -14,6 +14,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   url_launcher: ^6.2.6   # 🌐 HARİCİ LİNK AÇMAK İÇİN EKLENDİ
   provider: ^6.1.1
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.4.0
+  http: ^0.13.6
+  flutter_svg: ^1.1.6
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +26,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/human_model_project.svg
