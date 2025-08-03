@@ -1,0 +1,1 @@
+Included Categories:* Demographics: age, gender, country, education, marital status * Employment: industry, remote work status, company size * Mental Health: previous diagnosis, treatment history, current symptoms * Workplace Support: access to resources, comfort discussing with manager * Stigma & Awareness: perception of mental health in the workplace
